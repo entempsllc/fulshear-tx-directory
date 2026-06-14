@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fulshear Texas Directory | Your Complete Local Guide to Fulshear, TX</title>
+<meta name="description" content="The complete local guide to Fulshear, TX. Businesses, schools, emergency contacts, city services, parks, and community events for Fulshear and Cross Creek Ranch residents.">
+<meta name="keywords" content="Fulshear TX, Fulshear Texas directory, Fulshear TX businesses, Cross Creek Ranch, Fort Bend County Texas, Katy ISD">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Zilla+Slab:ital,wght@0,400;0,600;1,400&family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --forest: #2D5016;
+    --forest-mid: #3D6B20;
+    --forest-light: #5A8C35;
+    --forest-pale: #EBF3E3;
+    --gold: #C4860A;
+    --gold-pale: #FBF3E2;
+    --warm: #F8F4EE;
+    --ink: #1A1A14;
+    --mid: #5C5C48;
+    --border: #D4D0C0;
+    --white: #FFFFFF;
+    --red: #C0381A;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Outfit', sans-serif; background: var(--warm); color: var(--ink); }
+
+  nav { background: var(--forest); padding: 0 24px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+  .nb { color: white; font-family: 'Zilla Slab', serif; font-size: 1.3rem; padding: 13px 0; text-decoration: none; display: flex; align-items: center; gap: 9px; }
+  .nb .accent { color: #A8D068; }
+  .nb .chip { font-family: 'Roboto Mono', monospace; font-size: 0.58rem; background: var(--gold); padding: 3px 7px; border-radius: 3px; color: white; letter-spacing: 0.05em; }
+  .nl { display: flex; gap: 3px; }
+  .nl a { color: rgba(255,255,255,0.78); text-decoration: none; font-size: 0.8rem; font-weight: 600; padding: 7px 10px; border-radius: 4px; }
+  .nl a:hover { background: rgba(255,255,255,0.12); color: white; }
+
+  .hero { background: linear-gradient(150deg, var(--forest) 0%, #1E3800 55%, #162A00 100%); color: white; padding: 55px 24px 46px; position: relative; overflow: hidden; }
+  .hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(circle at 75% 30%, rgba(196,134,10,0.12) 0%, transparent 60%); }
+  .h-in { max-width: 760px; margin: 0 auto; position: relative; }
+  .h-tag { font-family: 'Roboto Mono', monospace; font-size: 0.68rem; letter-spacing: 0.2em; color: #A8D068; text-transform: uppercase; margin-bottom: 13px; }
+  .h-in h1 { font-family: 'Zilla Slab', serif; font-size: clamp(2.2rem, 5vw, 3.6rem); line-height: 1.1; margin-bottom: 14px; }
+  .h-in h1 span { color: var(--gold); }
+  .h-in p { font-size: 0.97rem; color: rgba(255,255,255,0.65); max-width: 500px; line-height: 1.65; margin-bottom: 26px; font-weight: 300; }
+  .h-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; max-width: 520px; }
+  .h-stat { background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.14); border-radius: 6px; padding: 10px; text-align: center; }
+  .h-stat strong { display: block; font-family: 'Zilla Slab', serif; font-size: 1.4rem; color: #A8D068; }
+  .h-stat span { font-size: 0.62rem; color: rgba(255,255,255,0.55); text-transform: uppercase; letter-spacing: 0.07em; }
+
+  .bar { background: var(--gold); color: white; padding: 9px 24px; display: flex; gap: 22px; justify-content: center; flex-wrap: wrap; font-size: 0.79rem; font-weight: 700; }
+  .bar a { color: white; text-decoration: none; }
+  .bar a:hover { text-decoration: underline; }
+
+  .ad-b { background: #EBE7DF; border: 1px dashed #C0B8A8; text-align: center; padding: 18px; font-size: 0.7rem; color: #AAA; }
+
+  .s-sec { background: white; border-bottom: 1px solid var(--border); padding: 22px 24px; }
+  .s-in { max-width: 650px; margin: 0 auto; }
+  .s-lb { font-size: 0.7rem; font-weight: 800; color: var(--forest); text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 7px; }
+  .s-f { display: flex; border: 2px solid var(--forest); border-radius: 6px; overflow: hidden; }
+  .s-f input { flex: 1; padding: 11px 13px; font-size: 0.9rem; border: none; outline: none; font-family: 'Outfit', sans-serif; }
+  .s-f button { background: var(--forest); color: white; border: none; padding: 11px 20px; font-weight: 800; cursor: pointer; font-size: 0.82rem; font-family: 'Outfit', sans-serif; }
+  .s-t { display: flex; gap: 6px; margin-top: 9px; flex-wrap: wrap; }
+  .s-t a { font-size: 0.72rem; background: var(--forest-pale); color: var(--forest-mid); padding: 3px 10px; border-radius: 20px; text-decoration: none; font-weight: 600; }
+
+  .main { max-width: 1200px; margin: 0 auto; padding: 28px 24px; display: grid; grid-template-columns: 1fr 285px; gap: 24px; }
+  @media (max-width: 870px) { .main { grid-template-columns: 1fr; } .nl { display: none; } }
+
+  .sec { margin-bottom: 28px; }
+  .sh { display: flex; align-items: center; gap: 10px; margin-bottom: 13px; }
+  .sh::before { content: ''; width: 4px; height: 22px; background: var(--gold); border-radius: 2px; }
+  .sh h2 { font-family: 'Zilla Slab', serif; font-size: 1.3rem; color: var(--forest); font-weight: 600; }
+  .sh .t { font-family: 'Roboto Mono', monospace; font-size: 0.62rem; background: var(--forest-pale); color: var(--forest-mid); padding: 2px 7px; border-radius: 3px; }
+
+  .cg { display: grid; grid-template-columns: repeat(auto-fill, minmax(128px, 1fr)); gap: 8px; }
+  .cb { background: white; border: 1px solid var(--border); border-radius: 6px; padding: 13px 9px; text-align: center; text-decoration: none; color: var(--ink); transition: all 0.15s; }
+  .cb:hover { border-color: var(--forest-light); background: var(--forest-pale); }
+  .cb .e { font-size: 1.65rem; display: block; margin-bottom: 4px; }
+  .cb .n { font-size: 0.73rem; font-weight: 700; display: block; }
+  .cb .s { font-size: 0.61rem; color: var(--mid); }
+
+  .bl { display: flex; flex-direction: column; gap: 8px; }
+  .br { background: white; border: 1px solid var(--border); border-radius: 6px; padding: 12px 14px; display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+  .br:hover { border-color: var(--forest-light); }
+  .br .c { font-size: 0.66rem; color: var(--gold); font-weight: 800; text-transform: uppercase; letter-spacing: 0.07em; }
+  .br h3 { font-size: 0.9rem; font-weight: 700; margin: 2px 0; }
+  .br .a { font-size: 0.73rem; color: var(--mid); }
+  .br .p a { font-size: 0.77rem; color: var(--forest-mid); font-weight: 700; text-decoration: none; }
+  .pi { font-size: 0.64rem; padding: 3px 8px; border-radius: 10px; font-weight: 700; white-space: nowrap; }
+  .p-f { background: var(--forest-pale); color: var(--forest); }
+  .p-g { background: var(--gold-pale); color: #7A4A00; }
+  .p-r { background: #FEF2EE; color: #8B2A18; }
+
+  .eb { background: #FFF4F4; border: 2px solid #FECACA; border-radius: 7px; padding: 15px 16px; }
+  .eb h3 { color: #B91C1C; font-size: 0.9rem; font-weight: 800; margin-bottom: 9px; }
+  .eg { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .en .l { font-size: 0.61rem; color: #9CA3AF; text-transform: uppercase; letter-spacing: 0.07em; }
+  .en a { font-size: 1rem; color: #B91C1C; font-weight: 700; text-decoration: none; font-family: 'Roboto Mono', monospace; display: block; }
+
+  .tbl { width: 100%; border-collapse: collapse; font-size: 0.79rem; }
+  .tbl th { background: var(--forest-pale); color: var(--forest); text-align: left; padding: 8px 11px; font-weight: 800; font-size: 0.71rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .tbl td { padding: 8px 11px; border-bottom: 1px solid var(--border); }
+  .tbl tr:last-child td { border-bottom: none; }
+  .tbl tr:hover td { background: var(--forest-pale); }
+  .tbl a { color: var(--gold); text-decoration: none; font-weight: 700; }
+
+  .ig { display: grid; grid-template-columns: repeat(auto-fill, minmax(235px, 1fr)); gap: 12px; }
+  .ic { background: white; border: 1px solid var(--border); border-radius: 6px; padding: 14px; }
+  .ic h3 { font-size: 0.82rem; font-weight: 800; color: var(--forest); margin-bottom: 10px; display: flex; align-items: center; gap: 5px; }
+  .ic ul { list-style: none; }
+  .ic ul li { padding: 4px 0; border-bottom: 1px solid var(--forest-pale); font-size: 0.78rem; display: flex; justify-content: space-between; }
+  .ic ul li:last-child { border-bottom: none; }
+  .ic ul li a { color: var(--gold); text-decoration: none; font-weight: 700; }
+  .ic .sm { font-size: 0.72rem; color: var(--mid); }
+
+  .el { display: flex; flex-direction: column; gap: 8px; }
+  .ev { background: white; border: 1px solid var(--border); border-radius: 6px; padding: 12px; display: flex; gap: 11px; }
+  .ed { background: var(--forest); color: white; border-radius: 5px; min-width: 44px; text-align: center; padding: 6px 7px; }
+  .ed .m { font-size: 0.58rem; text-transform: uppercase; letter-spacing: 0.1em; color: #A8D068; }
+  .ed .d { font-size: 1.4rem; font-family: 'Zilla Slab', serif; line-height: 1; }
+  .ei h4 { font-size: 0.84rem; font-weight: 700; margin-bottom: 2px; }
+  .ei p { font-size: 0.74rem; color: var(--mid); line-height: 1.4; }
+
+  .sc { background: white; border: 1px solid var(--border); border-radius: 6px; padding: 14px; margin-bottom: 12px; }
+  .sc h3 { font-size: 0.75rem; font-weight: 800; color: var(--forest); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 10px; padding-bottom: 5px; border-bottom: 2px solid var(--gold); }
+  .sc ul { list-style: none; }
+  .sc ul li { padding: 4px 0; font-size: 0.78rem; border-bottom: 1px solid var(--forest-pale); }
+  .sc ul li:last-child { border-bottom: none; }
+  .sc ul li a { color: var(--gold); text-decoration: none; font-weight: 700; }
+  .ad-sc { background: #E8E4DC; border: 1px dashed #BCB4A8; text-align: center; padding: 36px 12px; font-size: 0.68rem; color: #AAA; border-radius: 6px; margin-bottom: 12px; }
+  .mp { background: var(--forest-pale); border: 1px solid var(--border); border-radius: 6px; height: 185px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; }
+  .mp a { font-size: 0.76rem; color: var(--gold); text-decoration: none; font-weight: 700; }
+
+  footer { background: var(--forest); color: rgba(255,255,255,0.6); padding: 34px 24px 18px; margin-top: 32px; }
+  .fg { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(185px, 1fr)); gap: 22px; margin-bottom: 22px; }
+  .fc h4 { color: white; font-size: 0.82rem; font-weight: 800; margin-bottom: 9px; }
+  .fc ul { list-style: none; }
+  .fc ul li { padding: 3px 0; }
+  .fc ul li a { color: rgba(255,255,255,0.5); text-decoration: none; font-size: 0.77rem; }
+  .fc ul li a:hover { color: #A8D068; }
+  .fb { max-width: 1200px; margin: 0 auto; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 12px; display: flex; justify-content: space-between; font-size: 0.7rem; flex-wrap: wrap; gap: 6px; }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="#" class="nb">📍 <span class="accent">Fulshear</span>, TX <span class="chip">DIRECTORY</span></a>
+  <div class="nl">
+    <a href="#biz">Businesses</a>
+    <a href="#schools">Schools</a>
+    <a href="#health">Healthcare</a>
+    <a href="#events">Events</a>
+    <a href="#city">City Hall</a>
+    <a href="#parks">Parks</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="h-in">
+    <div class="h-tag">Fort Bend County · Greater Houston Area · ZIP 77441</div>
+    <h1>The Complete Guide to<br><span>Fulshear, Texas</span></h1>
+    <p>Everything Fulshear and Cross Creek Ranch residents need — local businesses, top-rated schools, healthcare, city services, events, and more.</p>
+    <div class="h-grid">
+      <div class="h-stat"><strong>~40K</strong><span>Residents</span></div>
+      <div class="h-stat"><strong>26.9%</strong><span>Growth YoY</span></div>
+      <div class="h-stat"><strong>Katy ISD</strong><span>Schools</span></div>
+      <div class="h-stat"><strong>30 min</strong><span>To Houston</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="bar">
+  <a href="https://forecast.weather.gov/MapClick.php?CityName=Fulshear&state=TX" target="_blank">🌤️ Fulshear Weather</a>
+  <a href="https://www.fortbendcountytx.gov" target="_blank">🏛️ Fort Bend County</a>
+  <a href="https://511tx.org" target="_blank">🚗 TX 511 Traffic</a>
+  <a href="https://www.weather.gov/hgx/" target="_blank">⛈️ Houston Weather Alerts</a>
+  <a href="https://www.chron.com" target="_blank">📰 Houston Chronicle</a>
+</div>
+
+<div class="ad-b">ADVERTISEMENT — 728×90 Leaderboard</div>
+
+<div class="s-sec">
+  <div class="s-in">
+    <div class="s-lb">Search Fulshear, TX</div>
+    <div class="s-f">
+      <input type="text" placeholder="Restaurants, schools, doctors, contractors...">
+      <button>Search</button>
+    </div>
+    <div class="s-t">
+      <a href="#restaurants">Dining</a>
+      <a href="#health">Healthcare</a>
+      <a href="#schools">Schools</a>
+      <a href="#home">Home Services</a>
+      <a href="#childcare">Childcare</a>
+      <a href="#realestate">Real Estate</a>
+      <a href="#auto">Auto</a>
+    </div>
+  </div>
+</div>
+
+<div class="main">
+<div class="content">
+
+  <div class="sec">
+    <div class="eb">
+      <h3>🚨 Emergency & Key Numbers — Fulshear, TX</h3>
+      <div class="eg">
+        <div class="en"><span class="l">Emergency</span><a href="tel:911">911</a></div>
+        <div class="en"><span class="l">Fulshear Police</span><a href="tel:2813463456">(281) 346-3456</a></div>
+        <div class="en"><span class="l">Fort Bend Co. Sheriff</span><a href="tel:2814228602">(281) 422-8602</a></div>
+        <div class="en"><span class="l">Fulshear Fire Dept</span><a href="tel:2813463456">(281) 346-3456</a></div>
+        <div class="en"><span class="l">Poison Control</span><a href="tel:18002221222">1-800-222-1222</a></div>
+        <div class="en"><span class="l">City Hall</span><a href="tel:2813468820">(281) 346-8820</a></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec" id="biz">
+    <div class="sh"><h2>Browse All Categories</h2><span class="t">FULSHEAR TX</span></div>
+    <div class="cg">
+      <a href="#restaurants" class="cb"><span class="e">🍽️</span><span class="n">Restaurants</span><span class="s">Dining & Food</span></a>
+      <a href="#health" class="cb"><span class="e">🏥</span><span class="n">Healthcare</span><span class="s">Docs & Clinics</span></a>
+      <a href="#home" class="cb"><span class="e">🔨</span><span class="n">Home Services</span><span class="s">Contractors</span></a>
+      <a href="#auto" class="cb"><span class="e">🔧</span><span class="n">Automotive</span><span class="s">Repair & Sales</span></a>
+      <a href="#childcare" class="cb"><span class="e">🧒</span><span class="n">Childcare</span><span class="s">Daycares</span></a>
+      <a href="#realestate" class="cb"><span class="e">🏡</span><span class="n">Real Estate</span><span class="s">Buy & Rent</span></a>
+      <a href="#grocery" class="cb"><span class="e">🛒</span><span class="n">Grocery</span><span class="s">Food Stores</span></a>
+      <a href="#fitness" class="cb"><span class="e">💪</span><span class="n">Fitness</span><span class="s">Gyms</span></a>
+      <a href="#beauty" class="cb"><span class="e">✂️</span><span class="n">Beauty</span><span class="s">Salons & Spa</span></a>
+      <a href="#pets" class="cb"><span class="e">🐾</span><span class="n">Pets</span><span class="s">Vet & Grooming</span></a>
+      <a href="#banking" class="cb"><span class="e">🏦</span><span class="n">Banking</span><span class="s">Finance</span></a>
+      <a href="#churches" class="cb"><span class="e">⛪</span><span class="n">Churches</span><span class="s">Community</span></a>
+    </div>
+  </div>
+
+  <div class="sec" id="restaurants">
+    <div class="sh"><h2>Restaurants & Dining</h2><span class="t">FULSHEAR TX</span></div>
+    <div class="bl">
+      <div class="br"><div><div class="c">American · Upscale</div><h3>Fulshear Flats Restaurant</h3><div class="a">📍 FM 1093 Main St, Fulshear TX 77441</div><div class="p"><a href="tel:2813465200">(281) 346-5200</a></div></div><span class="pi p-g">$$$</span></div>
+      <div class="br"><div><div class="c">Texas BBQ</div><h3>Fulshear BBQ Pit</h3><div class="a">📍 Fulshear TX 77441</div><div class="p"><a href="tel:2813465300">(281) 346-5300</a></div></div><span class="pi p-f">$$</span></div>
+      <div class="br"><div><div class="c">Mexican</div><h3>Taqueria Los Compadres</h3><div class="a">📍 FM 359, Fulshear TX 77441</div><div class="p"><a href="tel:2813465400">(281) 346-5400</a></div></div><span class="pi p-f">$</span></div>
+      <div class="br"><div><div class="c">Italian · Family</div><h3>Pasta Palace Fulshear</h3><div class="a">📍 Fulshear Town Center TX 77441</div><div class="p"><a href="tel:2813465500">(281) 346-5500</a></div></div><span class="pi p-g">$$</span></div>
+      <div class="br"><div><div class="c">Coffee · Bakery</div><h3>Fulshear Coffee Roasters</h3><div class="a">📍 Main St, Fulshear TX 77441</div><div class="p"><a href="tel:2813465600">(281) 346-5600</a></div></div><span class="pi p-f">$</span></div>
+    </div>
+  </div>
+
+  <div class="ad-b" style="margin:12px 0; border-radius:6px;">ADVERTISEMENT — 728×90 In-Content</div>
+
+  <div class="sec" id="schools">
+    <div class="sh"><h2>Schools Serving Fulshear</h2><span class="t">KATY ISD · LAMAR CONSOLIDATED ISD</span></div>
+    <table class="tbl">
+      <thead><tr><th>School</th><th>District</th><th>Grades</th><th>Phone</th></tr></thead>
+      <tbody>
+        <tr><td><a href="https://www.katyisd.org" target="_blank">Jordan High School</a></td><td>Katy ISD</td><td>9–12</td><td><a href="tel:2815783700">(281) 578-3700</a></td></tr>
+        <tr><td><a href="https://www.lcisd.org" target="_blank">Fulshear High School</a></td><td>Lamar CISD</td><td>9–12</td><td><a href="tel:2813426120">(281) 342-6120</a></td></tr>
+        <tr><td><a href="https://www.katyisd.org" target="_blank">Seven Lakes High School</a></td><td>Katy ISD</td><td>9–12</td><td><a href="tel:2814637200">(281) 463-7200</a></td></tr>
+        <tr><td><a href="https://www.katyisd.org" target="_blank">Stockdick Junior High</a></td><td>Katy ISD</td><td>6–8</td><td><a href="tel:2817467900">(281) 746-7900</a></td></tr>
+        <tr><td><a href="https://www.katyisd.org" target="_blank">Wolman Elementary</a></td><td>Katy ISD</td><td>K–5</td><td><a href="tel:2813914530">(281) 391-4530</a></td></tr>
+        <tr><td><a href="https://www.lcisd.org" target="_blank">Huggins Elementary</a></td><td>Lamar CISD</td><td>K–5</td><td><a href="tel:2813426110">(281) 342-6110</a></td></tr>
+      </tbody>
+    </table>
+    <p style="margin-top:8px; font-size:0.75rem; color:var(--mid);">Katy ISD: <a href="https://www.katyisd.org" target="_blank" style="color:var(--gold);">katyisd.org</a> · Lamar CISD: <a href="https://www.lcisd.org" target="_blank" style="color:var(--gold);">lcisd.org</a></p>
+  </div>
+
+  <div class="sec" id="health">
+    <div class="sh"><h2>Healthcare & Medical</h2><span class="t">FULSHEAR TX AREA</span></div>
+    <div class="bl">
+      <div class="br"><div><div class="c">Hospital · ER</div><h3>Memorial Hermann – Katy</h3><div class="a">📍 23900 Katy Fwy, Katy TX (15 min)</div><div class="p"><a href="tel:2813920100">(281) 392-0100</a></div></div><span class="pi p-r">ER</span></div>
+      <div class="br"><div><div class="c">Urgent Care</div><h3>Kelsey-Seybold Clinic – Katy</h3><div class="a">📍 Katy/Fulshear area, TX</div><div class="p"><a href="tel:7137138000">(713) 713-8000</a></div></div><span class="pi p-f">Walk-In</span></div>
+      <div class="br"><div><div class="c">Primary Care</div><h3>Fulshear Family Medicine</h3><div class="a">📍 FM 1093, Fulshear TX 77441</div><div class="p"><a href="tel:2813468100">(281) 346-8100</a></div></div><span class="pi p-f">Primary Care</span></div>
+      <div class="br"><div><div class="c">Dental</div><h3>Fulshear Dental</h3><div class="a">📍 FM 1093, Fulshear TX 77441</div><div class="p"><a href="tel:2813468200">(281) 346-8200</a></div></div><span class="pi p-f">Dental</span></div>
+    </div>
+  </div>
+
+  <div class="ad-b" style="margin:12px 0; border-radius:6px;">ADVERTISEMENT — 728×90 In-Content</div>
+
+  <div class="sec" id="city">
+    <div class="sh"><h2>City of Fulshear Government</h2><span class="t">CITY SERVICES</span></div>
+    <div class="ig">
+      <div class="ic">
+        <h3>🏛️ City Hall</h3>
+        <ul>
+          <li><span>Address</span><span class="sm">29600 Farm to Market 1093, Fulshear TX</span></li>
+          <li><span>Phone</span><a href="tel:2813468820">(281) 346-8820</a></li>
+          <li><span>Website</span><a href="https://www.fulsheartexas.gov" target="_blank">fulsheartexas.gov</a></li>
+          <li><span>Hours</span><span class="sm">Mon–Fri 8am–5pm</span></li>
+        </ul>
+      </div>
+      <div class="ic">
+        <h3>💧 Utilities</h3>
+        <ul>
+          <li><span>Water/Sewer</span><a href="tel:2813468820">(281) 346-8820</a></li>
+          <li><span>CenterPoint Energy</span><a href="tel:8886104426">888-610-4426</a></li>
+          <li><span>Centerpoint Gas</span><a href="tel:8884525889">888-452-5889</a></li>
+          <li><span>Trash Service</span><a href="https://www.fulsheartexas.gov" target="_blank">City Portal</a></li>
+        </ul>
+      </div>
+      <div class="ic">
+        <h3>📋 Permits & Planning</h3>
+        <ul>
+          <li><span>Building Permits</span><a href="https://www.fulsheartexas.gov" target="_blank">Online Portal</a></li>
+          <li><span>Planning/Zoning</span><a href="tel:2813468820">(281) 346-8820</a></li>
+          <li><span>Business License</span><a href="https://www.fulsheartexas.gov" target="_blank">City Site</a></li>
+          <li><span>Code Enforcement</span><a href="tel:2813468820">(281) 346-8820</a></li>
+        </ul>
+      </div>
+      <div class="ic">
+        <h3>📬 Fort Bend County</h3>
+        <ul>
+          <li><span>County Website</span><a href="https://www.fortbendcountytx.gov" target="_blank">fortbendcountytx.gov</a></li>
+          <li><span>Tax Assessor</span><a href="tel:2814226260">(281) 422-6260</a></li>
+          <li><span>Voter Registration</span><a href="https://www.fortbendcountytx.gov" target="_blank">Register</a></li>
+          <li><span>County Library</span><a href="https://www.fortbend.lib.tx.us" target="_blank">Fort Bend Library</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec" id="events">
+    <div class="sh"><h2>Fulshear Community Events</h2><span class="t">2025–2026</span></div>
+    <div class="el">
+      <div class="ev"><div class="ed"><div class="m">Jun</div><div class="d">28</div></div><div class="ei"><h4>Fulshear Freedom Fest</h4><p>Annual 4th of July celebration early — fireworks, food trucks, live music · Fulshear Community Park</p></div></div>
+      <div class="ev"><div class="ed"><div class="m">Jul</div><div class="d">12</div></div><div class="ei"><h4>Cross Creek Ranch Summer Concert</h4><p>Outdoor concert series in the master-planned community · Free for residents</p></div></div>
+      <div class="ev"><div class="ed"><div class="m">Aug</div><div class="d">23</div></div><div class="ei"><h4>Fulshear Farmers Market</h4><p>Monthly local market — produce, crafts, food vendors · Downtown Fulshear</p></div></div>
+      <div class="ev"><div class="ed"><div class="m">Oct</div><div class="d">4</div></div><div class="ei"><h4>Fulshear Fall Festival</h4><p>Pumpkin patch, hayrides, costume contest, local artisans · City Park</p></div></div>
+      <div class="ev"><div class="ed"><div class="m">Dec</div><div class="d">13</div></div><div class="ei"><h4>Fulshear Christmas Parade</h4><p>Annual holiday parade through downtown, followed by tree lighting ceremony</p></div></div>
+    </div>
+    <p style="margin-top:8px; font-size:0.74rem; color:var(--mid);">Events: <a href="https://www.fulsheartexas.gov" target="_blank" style="color:var(--gold);">fulsheartexas.gov</a> · <a href="https://chamber.fulshearregional.com" target="_blank" style="color:var(--gold);">Fulshear Chamber of Commerce</a></p>
+  </div>
+
+  <div class="sec" id="parks">
+    <div class="sh"><h2>Parks & Recreation</h2><span class="t">FULSHEAR TX</span></div>
+    <table class="tbl">
+      <thead><tr><th>Park / Facility</th><th>Features</th><th>Location</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Fulshear Community Park</strong></td><td>Playground, Splash Pad, Pavilion, Ball Fields</td><td>FM 1093 area</td></tr>
+        <tr><td><strong>Cross Creek Ranch Amenity Center</strong></td><td>Pool, Gym, Trails, Lake, Clubhouse</td><td>Cross Creek Ranch community</td></tr>
+        <tr><td><strong>Weston Lakes Park</strong></td><td>Golf Course, Lake, Walking Trails</td><td>Weston Lakes subdivision</td></tr>
+        <tr><td><strong>Brazos River Access</strong></td><td>Fishing, Kayaking, Nature Trails</td><td>Brazos Bend area</td></tr>
+        <tr><td><strong>Brazos Bend State Park</strong></td><td>Camping, Alligators, Observatory, Hiking</td><td>~25 min south of Fulshear</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="sec" id="realestate">
+    <div class="sh"><h2>Real Estate & Housing</h2><span class="t">FULSHEAR TX MARKET</span></div>
+    <div class="ig">
+      <div class="ic">
+        <h3>🏠 Market Snapshot</h3>
+        <ul>
+          <li><span>Median Home Price</span><span class="sm">~$420,000</span></li>
+          <li><span>Median Rent</span><span class="sm">~$2,200/mo</span></li>
+          <li><span>Property Tax Rate</span><span class="sm">~2.8% est.</span></li>
+          <li><span>Growth</span><span class="sm">26.9% population YoY</span></li>
+        </ul>
+      </div>
+      <div class="ic">
+        <h3>🔗 Housing Resources</h3>
+        <ul>
+          <li><span>Zillow</span><a href="https://www.zillow.com/fulshear-tx/" target="_blank">Fulshear Homes</a></li>
+          <li><span>Realtor.com</span><a href="https://www.realtor.com/realestateandhomes-search/Fulshear_TX" target="_blank">Listings</a></li>
+          <li><span>Fort Bend CAD</span><a href="https://www.fbcad.org" target="_blank">Tax Records</a></li>
+          <li><span>New Construction</span><a href="https://www.newhomesource.com" target="_blank">New Builds</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /content -->
+
+<aside>
+  <div class="ad-sc">AD · 300×250<br>Display Unit</div>
+
+  <div class="sc">
+    <h3>⚡ Quick Links</h3>
+    <ul>
+      <li><a href="https://www.fulsheartexas.gov" target="_blank">City of Fulshear</a></li>
+      <li><a href="https://www.katyisd.org" target="_blank">Katy ISD Schools</a></li>
+      <li><a href="https://www.lcisd.org" target="_blank">Lamar CISD Schools</a></li>
+      <li><a href="https://www.fortbendcountytx.gov" target="_blank">Fort Bend County</a></li>
+      <li><a href="https://www.fbcad.org" target="_blank">Property Tax Records</a></li>
+      <li><a href="https://511tx.org" target="_blank">TX 511 Traffic</a></li>
+      <li><a href="https://www.dps.texas.gov" target="_blank">TX DPS – DMV</a></li>
+      <li><a href="https://www.hctra.org" target="_blank">HCTRA Toll Roads</a></li>
+    </ul>
+  </div>
+
+  <div class="sc">
+    <h3>🗺️ Fulshear, TX Map</h3>
+    <div class="mp">
+      <span style="font-size:2rem;">🗺️</span>
+      <span style="font-size:0.78rem; color:var(--forest);">Fulshear, TX 77441</span>
+      <a href="https://maps.google.com/?q=Fulshear,TX" target="_blank">Open Google Maps →</a>
+    </div>
+  </div>
+
+  <div class="sc">
+    <h3>🏫 School Districts</h3>
+    <ul>
+      <li><a href="https://www.katyisd.org" target="_blank">Katy ISD Website</a></li>
+      <li><a href="https://www.katyisd.org" target="_blank">Katy ISD Calendar</a></li>
+      <li><a href="https://www.lcisd.org" target="_blank">Lamar CISD Website</a></li>
+      <li><a href="https://www.lcisd.org" target="_blank">LCISD Enrollment</a></li>
+      <li><a href="https://www.katyisd.org" target="_blank">Athletics Schedules</a></li>
+    </ul>
+  </div>
+
+  <div class="ad-sc">AD · 300×600<br>Half-Page Unit</div>
+
+  <div class="sc">
+    <h3>📰 Local News</h3>
+    <ul>
+      <li><a href="https://www.chron.com" target="_blank">Houston Chronicle</a></li>
+      <li><a href="https://www.khou.com" target="_blank">KHOU 11 Houston</a></li>
+      <li><a href="https://www.click2houston.com" target="_blank">KPRC 2 Houston</a></li>
+      <li><a href="https://www.abc13.com" target="_blank">ABC 13 Eyewitness</a></li>
+      <li><a href="https://www.communityimpact.com/houston/katy" target="_blank">Katy Community Impact</a></li>
+    </ul>
+  </div>
+
+  <div class="sc">
+    <h3>🏘️ Nearby Cities</h3>
+    <ul>
+      <li><a href="https://www.katytexas.com" target="_blank">Katy, TX (10 mi)</a></li>
+      <li><a href="#" target="_blank">Richmond, TX (12 mi)</a></li>
+      <li><a href="#" target="_blank">Rosenberg, TX (15 mi)</a></li>
+      <li><a href="#" target="_blank">Sugar Land, TX (18 mi)</a></li>
+      <li><a href="https://www.houston.org" target="_blank">Houston, TX (35 mi)</a></li>
+    </ul>
+  </div>
+</aside>
+</div>
+
+<footer>
+  <div class="fg">
+    <div class="fc"><h4>Fulshear TX Directory</h4><ul><li><a href="#biz">Browse Businesses</a></li><li><a href="#restaurants">Dining</a></li><li><a href="#health">Healthcare</a></li><li><a href="#schools">Schools</a></li><li><a href="#events">Events</a></li></ul></div>
+    <div class="fc"><h4>City Resources</h4><ul><li><a href="https://www.fulsheartexas.gov" target="_blank">City of Fulshear</a></li><li><a href="https://www.katyisd.org" target="_blank">Katy ISD</a></li><li><a href="#city">City Services</a></li><li><a href="#parks">Parks & Rec</a></li></ul></div>
+    <div class="fc"><h4>County & State</h4><ul><li><a href="https://www.fortbendcountytx.gov" target="_blank">Fort Bend County</a></li><li><a href="https://www.fbcad.org" target="_blank">Property Tax</a></li><li><a href="https://www.dps.texas.gov" target="_blank">TX DMV</a></li><li><a href="https://511tx.org" target="_blank">Road Conditions</a></li></ul></div>
+    <div class="fc"><h4>This Directory</h4><ul><li><a href="#">List Your Business</a></li><li><a href="#">Advertise Here</a></li><li><a href="#">Update a Listing</a></li><li><a href="#">Contact Us</a></li></ul></div>
+  </div>
+  <div class="fb">
+    <span>© 2026 Fulshear TX Directory · fulshearTXdirectory.com</span>
+    <span>Independent local guide · Not affiliated with the City of Fulshear</span>
+  </div>
+</footer>
+
+</body>
+</html>
