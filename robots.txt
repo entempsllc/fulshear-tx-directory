@@ -1,5 +1,3 @@
 User-agent: *
 Allow: /
-Disallow: /admin.html
-
 Sitemap: https://fulsheartxdirectory.com/sitemap.xml
